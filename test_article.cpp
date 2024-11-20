@@ -1,6 +1,5 @@
 #include "catch_amalgamated.hpp"
-#include "article.h"
-#include "author.h"
+#include "article.cpp"
 
 TEST_CASE("Article default constructor initializes with default values", "[constructor]") {
     Article article;
